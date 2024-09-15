@@ -62,3 +62,120 @@ body {
   border-radius: 1.875em;
   box-shadow: 0 0.75em 0.9375em rgba(172, 89, 89, 0.5);
 }
+section {
+  padding: 2.5em 1.25em;
+  max-width: 1000px;
+  margin: auto;
+  border-bottom: 1px solid #ac2e2e;
+}
+h1,
+h2 {
+  color: #bb86fc;
+  margin-bottom: 1.25em;
+  text-align: center;
+}
+
+/* skillss part */
+.skills-list {
+  list-style: none;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 1.25em;
+  justify-content: center;
+}
+.skills-list li {
+  background: #462121;
+  padding: 0.625em 1.25em;
+  border-radius: 0.75em;
+  transition: transform 0.4s;
+  box-shadow: 0 0.125em 0.625em rgba(0, 0, 0, 0.5);
+}
+.skills-list li:hover {
+  transform: translateY(-0.625em);
+}
+.img-skills {
+  width: 100%;
+  border-radius: 30px;
+  box-shadow: 0 16px 22px rgba(172, 89, 89, 0.5);
+}
+
+/* video part */
+.video-content-place iframe {
+  display: block;
+  margin: 0 auto;
+  border-radius: 1.25em;
+  box-shadow: 0 0 1.25em rgba(175, 77, 77, 0.7);
+}
+
+/* social links */
+.links-social {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 1.25em;
+  list-style: none;
+}
+.links {
+  color: #03dac6;
+  text-decoration: none;
+  padding: 0.625em 1.25em;
+  border: 0.125em solid #2c6862;
+  border-radius: 0.3125em;
+  transition: all 0.3s ease;
+}
+.links:hover {
+  background: #3da096;
+  color: #121212;
+}
+
+/* projects */
+.project-list {
+  list-style: none;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 1em;
+}
+.project-li {
+  background: #462121;
+  padding: 1em;
+  border-radius: 0.5em;
+  text-align: center;
+  transition: transform 0.4s;
+  box-shadow: 0 0.125em 0.3125em rgba(175, 77, 77, 0.7);
+}
+.project-li:hover {
+  box-shadow: 0 0.25em 1.25em rgba(0, 0, 0, 0.5);
+  transform: translateY(-0.625em);
+}
+
+/* certificates */
+.images-certificate .coloring {
+  display: flex;
+  gap: 1.25em;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+.coloring img {
+  max-width: 100%;
+  border-radius: 0.625em;
+  box-shadow: 0 0.25em 0.9375em rgba(0, 0, 0, 0.5);
+  transition: transform 0.3s ease;
+}
+.coloring img:hover {
+  transform: scale(1.05);
+}
+
+.footer {
+  text-align: center;
+  padding: 1.25em;
+  background: #1f1f1f;
+}
+.footer h3 {
+  color: #bb86fc;
+  font-weight: 400;
+}
+hr {
+  border: none;
+  border-top: 0.0625em solid #333;
+  margin: 1.25em 0;
+}
